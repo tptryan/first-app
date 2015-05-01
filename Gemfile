@@ -10,7 +10,8 @@ group :production do
 end
 
 group :development do
-  gem 'sqlite3' 
+  gem 'sqlite3'
+  gem 'rspec-rails', '~>3.0' 
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
